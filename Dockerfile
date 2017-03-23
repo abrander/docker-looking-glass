@@ -11,5 +11,6 @@ RUN apt-get update \
 		net-tools \
 		iproute2 \
 		netcat \
+		nmap \
 	&& apt-get clean \
 	&& apt-get autoclean
