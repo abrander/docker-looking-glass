@@ -12,5 +12,6 @@ RUN apt-get update \
 		iproute2 \
 		netcat \
 		nmap \
+		fping \
 	&& apt-get clean \
 	&& apt-get autoclean
