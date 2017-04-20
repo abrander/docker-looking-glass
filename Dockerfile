@@ -13,5 +13,7 @@ RUN apt-get update \
 		netcat \
 		nmap \
 		fping \
+		curl \
+		http \
 	&& apt-get clean \
 	&& apt-get autoclean
