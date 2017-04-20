@@ -14,6 +14,6 @@ RUN apt-get update \
 		nmap \
 		fping \
 		curl \
-		http \
+		httpie \
 	&& apt-get clean \
 	&& apt-get autoclean
