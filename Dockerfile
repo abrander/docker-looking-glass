@@ -15,5 +15,6 @@ RUN apt-get update \
 		fping \
 		curl \
 		httpie \
+		mysql-client \
 	&& apt-get clean \
 	&& apt-get autoclean
