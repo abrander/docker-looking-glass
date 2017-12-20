@@ -16,5 +16,6 @@ RUN apt-get update \
 		curl \
 		httpie \
 		mysql-client \
+		zsh \
 	&& apt-get clean \
 	&& apt-get autoclean
