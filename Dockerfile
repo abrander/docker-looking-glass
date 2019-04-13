@@ -17,5 +17,6 @@ RUN apt-get update \
 		httpie \
 		mysql-client \
 		zsh \
+		mosquitto-clients \
 	&& apt-get clean \
 	&& apt-get autoclean
