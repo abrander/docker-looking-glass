@@ -18,5 +18,6 @@ RUN apt-get update \
 		mysql-client \
 		zsh \
 		mosquitto-clients \
+		apache2-utils \
 	&& apt-get clean \
 	&& apt-get autoclean
