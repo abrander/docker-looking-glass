@@ -19,5 +19,6 @@ RUN apt-get update \
 		zsh \
 		mosquitto-clients \
 		apache2-utils \
+		jq \
 	&& apt-get clean \
 	&& apt-get autoclean
